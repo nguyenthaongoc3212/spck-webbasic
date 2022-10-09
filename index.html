@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box {
+            width: 1920px;
+        }
+
+        header {
+            background: #4f81bd;
+            padding: 20px 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1140px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .row {
+          display: block;
+          margin-left: -30%;
+        }
+
+        .navbar {
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
+            position: relative;
+            right:200px;
+          bottom: -10px;  
+            color: White;
+            font-size: 20px;
+        }
+       
+
+        .title-gioithieu {
+            color: #4f81bd;
+            font-size: 25px;
+            position: relative;
+            top: -25px;
+            margin-left: 2%;
+        }
+
+        .main-news {
+            position: relative;
+            top: -20px;
+        }
+
+        .main-newsleft {
+     margin-left: 2%;}
+      .main-newsleft1{
+        margin-left:2%;
+        font-size: 15px;
+      }
+      .img{
+    margin-left: 2%;
+      }
+      .main-newsleft2{
+        margin-left: 2%;
+        font-size: 15px;
+      }
+      .main-newsleft3{
+        margin-left: 2%;
+        font-size: 15px;
+      }
+      .thanhtich{
+        margin-left: 2%;
+        font-size: 15px;
+        list-style-type: circle;
+        line-height:200%;
+      }
+      .footer-menu {
+       
+      width: 100%;
+      float: left;
+      padding-left: 25px;
+      padding-top: 27px;
+      padding-bottom: 27px;
+      position: relative;
+      bottom: 0;
+      text-decoration: none;
+      align-items: center;
+      background: #4f81bd;
+      margin-top: 60%;
+}
+.container-full {
+      height: auto;
+      text-align: center;
+    color: white;}
+    .rain{
+    color: black;
+    display: block;
+    margin-left: -20%;
+   font-size: 35px;
+margin-top: -7%;
+    }
+    .contain{
+            margin-top:-1620px;
+            margin-left:-50px;
+            margin-bottom:-130px;
+            margin-left:1100px;
+            height: 25px;  
+            background-color:#4169E1 ; 
+            text-align: center; 
+        color: aliceblue;    }
+            .t1{
+               margin-bottom: 10px;
+               width: 100%;
+               height: 58,5px;
+               
+            }
+            .img1{
+                float: left;
+                width: 20%;
+                height: 58px;
+                padding-left: 1100px;
+                padding-top: 140px;
+               
+            }
+        .thongtin{
+            float: left;
+            width: 78%;
+            padding-left: 1300px;
+            font-size: initial;
+            text-align: justify;
+            color: #4f81bd;
+            background: transparent;
+            margin-top: -60px;
+        }
+        .t2{
+            margin-bottom: 10px;
+               width: 100%;
+               height: 58,5px;
+               
+        }
+        .img2{
+            float: left;
+                width: 20%;
+                height: 58px;
+                padding-left: 1100px;
+                padding-top: 25px;
+               
+        }
+       .thongtin2{
+        float: left;
+            width: 78%;
+            padding-left: 1300px;
+            font-size: initial;
+            text-align: justify;
+            color: #4f81bd;
+            background: transparent;
+            margin-top: -60px;
+       }
+       .t3{
+            margin-bottom: 10px;
+               width: 100%;
+               height: 58,5px;
+               
+        }
+        .img3{
+            float: left;
+                width: 20%;
+                height: 58px;
+                padding-left: 1100px;
+                padding-top: 25px;
+               
+        }
+       .thongtin3{
+        float: left;
+            width: 78%;
+            padding-left: 1300px;
+            font-size: initial;
+            text-align: justify;
+            color: #4f81bd;
+            background: transparent;
+            margin-top: -60px;
+       }
+       .contain1{
+            margin-top:400px;
+            margin-left:-50px;
+            margin-bottom:-130px;
+            margin-left:1100px;
+            height: 25px;  
+            background-color:#4169E1 ; 
+            text-align: center;   
+        color: aliceblue;  }
+        .img4{
+            float: left;
+                width: 20%;
+                height: 58px;
+                padding-left: 1160px;
+                padding-top: 70px;
+        }
+        .img5{
+            float: left;
+                width: 20%;
+                height: 58px;
+                padding-left: 1160px;
+                padding-top: 90px;
+        }
+        .img6{
+            float: left;
+                width: 20%;
+                height: 58px;
+                padding-left: 1160px;
+                padding-top: 90px;
+        }
+       
+    </style>
+    <title>Giới thiệu trường </title>
+</head>
+<body>
+    <div class="box">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <img src="data:image/png;base64,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" width="100px"style="  border-radius: 50px 50px 50px 50px;">
+                </div>
+                <div class="rain">
+                    <a class="item-bar"> Trường THPT Bảo Lộc</a>
+                </div>
+                <div class="navbar">
+                          <a style="text-decoration: none ; color: red;" href="gioithieu.html">Giới thiệu </a>
+                          <a style="text-decoration: none" href="#">Tuyển sinh </a>
+                         <a style="text-decoration: none" href="giaovien.html">Giáo viên </a>
+                          <a style="text-decoration: none" href="lienhe.html">Liên hệ </a>
+                        
+                </div>
+            </div>
+    </div>
+    </div>
+    </header>
+  
+    <div class="title-gioithieu">
+        <h1>Đôi nét về THPT Bảo Lộc</h1>
+    </div>
+    <div class="main-news">
+        <div class="main-newsleft"> <img src="http://thptbaoloc.edu.vn/ImagesHomePage/07032017_080938_AM_17195522_739420836225201_1156607479_o.jpg" width="65%"></div>
+          <div class="main-newsleft1">
+           
+             <p><strong> Được thành lập từ năm 1963, tiền thân của trường Trung học Bảo Lộc là một ngôi trường nhỏ, bây
+                    giờ là trường Tiểu học Nguyễn Trãi.<br>
+                    Sau tháng ba năm 1975, để có thể tiếp tục sự nghiệp trồng người, UBND tỉnh và Sở Giáo dục Lâm Đồng
+                    đã tiếp thu cơ sở vật chất của<br> trường Trung học tư thục Cộng Hòa cộng thêm hai dãy phòng học của
+                    trường Tiểu học Sao Mai để tạo nên ngôi trường cấp ba duy nhất <br>của huyện Bảo Lộc. Hơn hai mươi năm
+                    xây dựng và phát triển trên diện tích 12.081m2, trường THPT Bảo Lộc luôn đạt được những thành <br> tích
+                    đáng kể, thành tích ấy được duy trì liên tục. Tính đến thời điểm mười năm trở lại đây, trường đã đạt
+                    chuẩn quốc gia giai đoạn 1 năm <br>2010,giai đoạn 2 năm 2016 và đang xây dựng giai đoạn 3 năm
+                    2021.
+                <br></strong>
+                <br>
+                Trường có 34 phòng học đầy đủ trang thiết bị hiện đại đáp ứng yêu cầu đổi mới phương pháp dạy và học,
+                phục vụ tốt cho việc ứng dụng công nghệ <br>thông tin; có 9 phòng bộ môn thực hành thí nghiệm; có nhà đa
+                năng rất hữu hiệu trong việc dạy và tập luyện thể dục thể thao. Một thư viện đầy đủ<br> sách giáo khoa các
+                bộ môn, hàng ngàn đầu sách tham khảo, kỹ năng và giải trí. Đặc biệt có bốn tủ sách thân thiện di động
+                đặt bốn góc trường do cựu<br> học sinh, học sinh xây dựng và tự quản. Ở đây, người đọc có thể tìm thấy loại
+                sách “ Hạt giống tâm hồn” và nhiều đầu sách phổ thông nhằm rèn luyện<br> kỹ năng sống và phát triển cả hai
+                mặt trí dục và đức dục. Thư viện của trường nhiều năm liền đạt thư viện xuất sắc cấp tỉnh.
+                <br>
+            </p>
+        </div>
+          <div class="img"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4sJzEKvpLYcf0okeUuYKp0DEdnZOd74zrBg&usqp=CAU" width="65%"></div>
+          <div class="main-newsleft2">
+          <p>
+                Hiện nay trường có tổng số 80 CB-GV-CNV, 100% CB-GV-CNV đạt chuẩn về chuyên môn nghiệp vụ, trong đó 41
+                đảng viên, có 14 thạc sĩ, 2 giáo viên dạy <br>giỏi cấp quốc gia, có 4 giáo viên dạy giỏi cấp tỉnh, 74 lượt
+                giáo viên dạy giỏi cấp trường. Nhìn chung đội ngũ giáo viên có trình độ chuyên môn, nghiệp vụ<br> sư phạm
+                tốt, nhiệt tình, giàu kinh nghiệm. Đặc biệt hơn nữa trường còn có bề dày trong ôn luyện thi THPT quốc
+                gia và bồi dưỡng học sinh giỏi. Với bề dày<br> truyền thống hơn 50 năm hình thành và phát triển, cùng với truyền thống hiếu học  của con em
+                địa phương, Trường THPT Bảo Lộc đã đào tạo được nhiều <Br> thế hệ học sinh thành tài. Sự thành đạt của các em
+                đã góp phần to lớn vào sự nghiệp xây dựng và bảo vệ đất nước. Truyền thống quý báu nhất của nhà<br> trường
+                đó là sự đoàn kết nhất trí và sự cống hiến hết mình của Hội đồng Sư phạm nhà trường - những người không
+                bằng lòng với hiện tại và không tự mãn<br>với những thành tích đã đạt được, không ngừng phấn đấu vươn lên
+                để mãi mãi xứng đáng với sự tin yêu của mọi người, đây chính là lương tâm và trách<br> nhiệm của thầy và trò
+                Trường THPT Bảo Lộc cho hôm nay và cho mai sau.
+                <br>
+            </p>
+        </div>
+        <div class="main-newsleft3">
+            <p><strong>Chất lượng hiệu quả công tác dạy và học của trường THPT Bảo Lộc 5 năm gần nhất từ 2015-2020:</strong></p></div>
+           <div class="thanhtich"> 
+            <ul> 
+                <i>  <li> Huân chương lao động hạng Ba năm 2015.</li>
+               <li>  Bằng khen của Bộ trưởng Bộ Giáo Dục năm 2017.</li>
+               <li>   Bằng khen của UBND tỉnh: Đã có nhiều thành tích trong phong trào thi đua “Đổi mới, sáng tạo trong dạy
+                và học” giai đoạn 2015-2019.</li>
+                <li>  Danh hiệu “Tập thể lao động xuất sắc” nhiều năm liền.</li>
+                <li>   Trường chuẩn Quốc Gia giai đoạn II, giai đoạn 2016-2020.</li>
+                <li>  Xếp thứ 91 trong tốp 100 trường có điểm thi Đại học cao nhất cả nước.</li>
+                <li>  Tốp 50 trường THPT khối không chuyên có điểm THPT Quốc gia năm 2015, 2016, 2017, 2018, 2019,2020 cao
+                nhất nước. Được khối các<br> trường ĐH thuộc ĐH Quốc gia TP HCM và một số trường đại học khác tuyển thẳng
+                học sinh giỏi.</li>
+                <li>37 HS giỏi quốc gia các môn văn hoá, 41 HSG quốc gia các lĩnh vực khác.</li>
+                <li> Nhiều cựu học sinh đạt Tiến sĩ ở nước ngoài hiện công tác trong nước và quốc tế.
+                <li>Giải Nhì chung kết “Đường lên đỉnh Olympya” năm thứ 9..</li>
+                <li> 1 HS đạt giải Nhất cuộc thi “Thực hiện ước mơ lần thứ 5” do Thành Đoàn TP HCM tổ chức được học bổng
+                toàn phần du học tại Sydney Úc: 75.000 AUD.</li></i>
+            </ul>
+            </div>
+    </div>
+    <div class="contain">
+        <div class="tieude">
+            <a class="1">TIN MỚI NHẤT </a>
+        </div>
+    </div>
+    <div class="t1">
+        <div class="img1">
+            <img src="http://thptbaoloc.edu.vn/Images/THPTBLoc.jpg" alt="" style="height: 60px;width:60%">
+        </div>
+        <div class="thongtin">
+           <a class="hptitle">THƯ MỜI HỌP PHỤ HUYNH 
+            <br>VÀ HỌC SINH LỚP 10 NĂM<br> HỌC 2022-2023 </a>
+        </div>
+    </div>
+    <div class="t2">
+        <div class="img2">
+            <img src="http://thptbaoloc.edu.vn/Images/THPTBLoc.jpg" alt="" style="height: 60px;width:60%;" >
+        </div>
+        <div class="thongtin2">
+            <a class="hptitle1">HƯỚNG DẪN THỰC HIỆN <br>ĐỒNG PHỤC HỌC SINH <br>TRƯỜNG THPT BẢO LỘC</a>
+        </div>
+    </div>
+    <div class="t3">
+        <div class="img3">
+            <img src="http://thptbaoloc.edu.vn/Images/THPTBLoc.jpg" alt="" style="height: 60px;width: 60%;">
+        </div>
+        <div class="thongtin3">
+          <a class="hptitle2">DANH SÁCH HỌC SINH<br> TRÚNG TUYỂN VÀO LỚP 10 <br>NĂM HỌC 2022-2023</a>
+        </div>
+    </div>
+    <div class="contain1">
+        <div class="tieude1">
+            <a class="2">HỘI THI HỌC SINH</a>
+        </div>
+    </div>
+    <div class="img4">
+        <img src="http://thptbaoloc.edu.vn/Images/HTTINHOCTRE.png" alt=""style="width: 100%;">
+    </div>
+    <div class="img5">
+        <img src="http://thptbaoloc.edu.vn/Images/HTSTKHKT.png" alt="" style="width: 100%;">
+    </div>
+    <div class="img6">
+        <img src="http://thptbaoloc.edu.vn/Images/HTSTTTN.png" alt="" style="width: 100%;">
+    </div>
+<footer>
+    <div class="footer-menu">
+        <div class="container-full">
+    <p> © 2022 Nguyễn Thảo Ngọc </p> 
+    <p>Địa chỉ : 101 Lê Hồng Phong - Phường 1 - Tp.Bảo Lộc - Lâm Đồng</p>
+ 
+        </div>
+       
+        </div>
+    </div>
+</footer>
+</body>
+</html>
